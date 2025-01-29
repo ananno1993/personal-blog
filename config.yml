@@ -1,4 +1,4 @@
-baseURL: https://rishabkumar.com
+baseURL: https://shaon.online
 title: S M SHAON
 paginate: 6
 theme: charlolamode
@@ -51,19 +51,19 @@ params:
         imageHeight: 200
         buttons:
             - name: Don't click me
-              url: https://www.youtube.com/@rishabincloud
+              url: https://www.youtube.com/@amrserver2023
             - name: Checkout the DevOps Guide
               url: https://thedevops.guide
             - name: Subscribe to my newsletter
-              url: https://rishabkumar.substack.com/
+              url: https://shaon.online
     mainSections:
       - articles
 
     socialIcons:
         - name: github
-          url: "https://github.com/rishabkumar7"
+          url: "https://github.com/ananno1993"
         - name: youtube
-          url: "https://youtube.com/@rishabincloud"
+          url: "https://www.youtube.com/@amrserver2023"
         - name: twitter
           url: "https://twitter.com/rishabincloud"
         - name: linkedin
