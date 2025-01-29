@@ -1,0 +1,94 @@
+baseURL: https://rishabkumar.com
+title: Rishab Kumar
+paginate: 6
+theme: charlolamode
+
+
+
+menu:
+    main:
+        - name: About
+          url: about/
+          weight: 30
+        - name: Blog
+          url: blog/
+          weight: 20
+        # - name: Categories
+        #   url: categories/
+        #   weight: 10
+        - name: Notes
+          url: notes/
+        #  weight: 10
+        - name: Public Speaking
+          url: publicspeaking/
+        - name: Podcast
+          url: podcast/
+        - name: Uses
+          url: uses/
+
+
+params:
+    author: Rishab Kumar
+    description: Hi, I am Rishab Kumar, a Developer Evangelist at Twilio and Cloud & DevOps enthusiast.
+
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    profileMode:
+        enabled: true
+        title: Rishab Kumar 👋
+        description: Ula
+        imageUrl: "/images/profile.jpg"
+        imageTitle: Rishab Kumar
+        imageWidth: 200
+        imageHeight: 200
+        buttons:
+            - name: Don't click me
+              url: https://www.youtube.com/@rishabincloud
+            - name: Checkout the DevOps Guide
+              url: https://thedevops.guide
+            - name: Subscribe to my newsletter
+              url: https://rishabkumar.substack.com/
+    mainSections:
+      - articles
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/rishabkumar7"
+        - name: youtube
+          url: "https://youtube.com/@rishabincloud"
+        - name: twitter
+          url: "https://twitter.com/rishabincloud"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/rishabkumar7/"
+        - name: buymeacoffee
+          url: "https://www.buymeacoffee.com/rishabincloud"
+        - name: instagram
+          url: "https://instagram.com/rishabincloud"
+
+
+    # change favicon in images folder (icon for web tab)
+    assets:
+          favicon: "/images/favicon.ico"
+          favicon16x16: "/images/favicon-16x16.png"
+          favicon32x32: "/images/favicon-32x32.png"
+          apple_touch_icon: "/images/apple-touch-icon.png"
+          safari_pinned_tab: "/images/apple-touch-icon.png"
+
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+

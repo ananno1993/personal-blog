@@ -1,0 +1,31 @@
+
+{{ range .Site.Data.blog_data }}
+<article class="post-entry">
+  <header class="entry-header"> 
+    <h2> {{ .title | title }}</h2>
+  </header>
+  <section class = "entry-content">
+    <p>{{ .brief }} </p>
+  </section>
+  <footer class="entry-footer">
+    <span>
+      {{ .dateAdded }}
+    </span> Rishab Kumar</footer>
+  <a href="https://blog.rishabkumar.com/{{ .slug }}" class="entry-link"></a>
+</article>
+{{ end }}
+
+<!--
+{{ with (index .Site.Data "blog-data") }}
+
+<div class="shadow card">
+  <div class="card-body">
+      <div class="media-body">
+        <h6><i class="las la-external-link-alt"></i> <a href="{{ .user.publication.posts.slug }}" class="stretched-link">{{
+            .data.user.publication.posts.title |
+            title }}</a></h6>
+      </div>
+    </div>
+  </div>
+{{ end }}
+-->
